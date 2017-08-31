@@ -16,7 +16,7 @@ node {
     }
     
     stage('Test') {
-        sh 'jasmine'   
+        sh 'npm test'   
     }
 
     stage('Archive') {
