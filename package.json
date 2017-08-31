@@ -1,0 +1,19 @@
+{
+  "name": "roman_numerals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tundra55/convertToRomanNumerals.git"
+  },
+  "author": "Tundra55",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tundra55/convertToRomanNumerals/issues"
+  },
+  "homepage": "https://github.com/Tundra55/convertToRomanNumerals#readme"
+}
