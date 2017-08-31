@@ -15,12 +15,12 @@ node {
         git 'https://github.com/Tundra55/convertToRomanNumerals'
     }
 
-    stage('Version') {
-        sh "mvn -B -V -U -e versions:set -DnewVersion=$version"
-    }
-
     stage('Build') {
         sh 'mvn -B -V -U -e clean package'
+    }
+    
+    stage('Test') {
+        sh 'jasmine'   
     }
 
     stage('Archive') {
